@@ -3,7 +3,7 @@ var txtInput = document.querySelector("#text-input");// referenced to the  texta
 var outputDiv = document.querySelector("#output");// for the ouput div rerencing
 
  
-var serverURL = "https://api.funtranslations.com/translate/minion.json"
+var serverURL = ""https://api.funtranslations.com/translate/pirate.json""
 
 function getTranslationURL(input) {
     return serverURL + "?" + "text=" + input // taking input from here
